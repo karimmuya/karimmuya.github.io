@@ -67,7 +67,6 @@ Now lets quit Radare and run again the patched binary to see if we have successf
 [karim@karim ]$ ./bbbbloat 
 Whats my favorite number? 2
 picoCTF{cu7_7h3_bl047_2d7aeca1}
-[karim@karim temp-blog]$ 
 
 ```
 <br />

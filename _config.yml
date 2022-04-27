@@ -1,7 +1,7 @@
 # Mandatory settings
 
 blog_theme: dark # Or use dark
-name: Karim
+name: karimmuya
 paginate: 25
 url: https://karimmuya.github.io
 baseurl: ""

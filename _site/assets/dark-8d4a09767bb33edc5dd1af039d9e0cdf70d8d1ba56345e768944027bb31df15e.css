@@ -661,7 +661,9 @@ img {
   .grid-cell.with-11off {
     margin-left: 0; } }
 .about {
-  padding: 100px 0; }
+  padding: 100px 0;
+  margin: auto;
+  text-align: center; }
   .about h1 {
     margin: 50px 0 15px; }
 

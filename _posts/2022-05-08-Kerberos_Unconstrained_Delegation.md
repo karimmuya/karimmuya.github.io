@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DCSync attack with Kerberos unconstrained delegation."
+title: "DCSync attacks with Kerberos unconstrained delegation."
 description: "This post demonstrates how to capture the domain controller’s Ticket-Granting-Ticket (TGT) by coerce a domain controller to authenticate to a computer configured with unconstrained delegation."
 tags: [red_team, active_directory]
 ---
@@ -103,7 +103,7 @@ SpoolSample.exe DC01.strawhats.local BLACKBEARD.strawhats.local
 where:
 
 - `DC01.strawhats.local` is the domain controller we want to compromise
-- `BLACKBEARD.strawhats`.local is the machine with delegation enabled that we control.
+- `BLACKBEARD.strawhats.local` is the machine with delegation enabled that we control.
 
 {% include image.html path="screenshots/krbdelg/5.png" path-detail="screenshots/krbdelg/5.png" alt="Sample image" %}
 
@@ -150,7 +150,7 @@ kerberos::golden /user:Administrator /domain:strawhats.local /sid:S-1-5-21-31126
 <br>
 {% include image.html path="screenshots/krbdelg/11.png" path-detail="screenshots/krbdelg/11.png" alt="Sample image" %}
 
-Now We can try to PSRemote into the domain controller as the Administrator user :
+Now We can try to PSRemote again into the domain controller as the Administrator user :
 
 <br>
 {% include image.html path="screenshots/krbdelg/12.png" path-detail="screenshots/krbdelg/12.png" alt="Sample image" %}

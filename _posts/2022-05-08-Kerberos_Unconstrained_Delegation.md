@@ -2,7 +2,7 @@
 layout: post
 title: "DCSync attack with Kerberos unconstrained delegation."
 description: "This post demonstrates how to capture the domain controller’s Ticket-Granting-Ticket (TGT) by coerce a domain controller to authenticate to a computer configured with unconstrained delegation."
-tags: [read_team, active_directory]
+tags: [red_team, active_directory]
 ---
 
 ### Introduction.

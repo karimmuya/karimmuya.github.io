@@ -31,7 +31,7 @@ rule silent_banker : banker
 <br>
 In Linux you can just pull yara from the repository, for example in Debian distros you can just do  `apt install yara`.
 For Windows, you’ll need to download the binaries.
-You can get full Installation instructions from [here](https://yara.readthedocs.io/en/stable/gettingstarted.html)
+You can get full Installation instructions from [here](https://yara.readthedocs.io/en/stable/gettingstarted.html).
 
 The rule starts with a name, and then has three sections:
 
@@ -94,7 +94,7 @@ rule php_shell
 
 - As we can see the `string` section has all the possible strings we need to search for.
 - In condition section, `any of ($cmd*) and (any of ($string*))` states that:
-  match the occurrence of any of `$cmd` which can be `system`, `exec`, `shell_exec` or `passthru` combine with occurrence of any of `$string` which can be `/bin/bash`, `/bin/sh`, `/dev/tcp` or `cmd.exe`
+  match the occurrence of any of `$cmd` which can be `system`, `exec`, `shell_exec` or `passthru` combine with occurrence of any of `$string` which can be `/bin/bash`, `/bin/sh`, `/dev/tcp` or `cmd.exe`.
 
 <br>
  
@@ -183,7 +183,7 @@ After running the command, we see a hit. It returns the name of the rule that ma
 <br>
 {% include image.html path="screenshots/yara/6.png" path-detail="screenshots/yara/6.png" alt="Sample image" %}
 
-That's it. I hope you’ve enjoyed this post
+That's it.
 
 <br>
 <hr>
@@ -191,7 +191,7 @@ That's it. I hope you’ve enjoyed this post
 
 ##### Conclusion:
 
-Now that you have the knowledge you can start building your own Yara rules to start hunting malwares.
+Now that you have the knowledge you can start building your own Yara rules to start hunting malwares. I hope you’ve enjoyed this post.
 
 <br>
 <hr>

@@ -183,7 +183,7 @@ After running the command, we see a hit. It returns the name of the rule that ma
 <br>
 {% include image.html path="screenshots/yara/6.png" path-detail="screenshots/yara/6.png" alt="Sample image" %}
 
-That's it.
+
 
 <br>
 <hr>

@@ -2,6 +2,7 @@
 layout: post
 title: "Abusing Kerberos unconstrained delegation and DCSync the Domain."
 description: "This post demonstrates how to capture the domain controller’s Ticket-Granting-Ticket (TGT) by coerce a domain controller to authenticate to a computer configured with unconstrained delegation."
+thumb_image: "screenshots/krbdelg/thumb.png"
 tags: [red_team, active_directory]
 ---
 
@@ -172,7 +173,7 @@ As we can see from the above screenshot, the BLACKBEARD computer now contains a 
 
 ##### References.
 
-- https://www.slideshare.net/harmj0y/the-unintended-risks-of-trusting-active-directory
-- https://adsecurity.org/?p=1667
-- https://blog.xpnsec.com/kerberos-attacks-part-1/
-- https://www.cyberark.com/resources/threat-research-blog/weakness-within-kerberos-delegation
+- [https://www.slideshare.net/harmj0y/the-unintended-risks-of-trusting-active-directory](https://www.slideshare.net/harmj0y/the-unintended-risks-of-trusting-active-directory)
+- [https://adsecurity.org/?p=1667](https://adsecurity.org/?p=1667)
+- [https://blog.xpnsec.com/kerberos-attacks-part-1/](https://blog.xpnsec.com/kerberos-attacks-part-1/)
+- [https://www.cyberark.com/resources/threat-research-blog/weakness-within-kerberos-delegation](https://www.cyberark.com/resources/threat-research-blog/weakness-within-kerberos-delegation)

@@ -1,0 +1,7 @@
+--2022-05-20 21:47:59--  https://media-exp1.licdn.com/dms/image/C4E22AQGcNRM6nVwr_g/feedshare-shrink_800/0/1652006387556?e=1655942400
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving media-exp1.licdn.com (media-exp1.licdn.com)... 152.199.21.118, 2606:2800:233:6a53:4ac1:3bc8:ee4e:5990
+Connecting to media-exp1.licdn.com (media-exp1.licdn.com)|152.199.21.118|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2022-05-20 21:48:00 ERROR 403: Forbidden.
+

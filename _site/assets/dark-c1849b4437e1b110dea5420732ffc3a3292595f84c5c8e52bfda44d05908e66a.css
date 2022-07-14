@@ -666,6 +666,10 @@ img {
   text-align: center; }
   .about h1 {
     margin: 50px 0 15px; }
+  .about img {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; }
 
 .article {
   display: block;
@@ -938,7 +942,7 @@ img {
 .highlighter-rouge {
   padding: 2px 4px;
   font-size: 14px;
-  color: #b39bff;
+  color: #f92672;
   background: #050505;
   border: 1px solid #393636;
   border-radius: 1px; }

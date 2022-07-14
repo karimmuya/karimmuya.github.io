@@ -34,7 +34,7 @@
     
       <link rel="icon" type="image/x-icon" href="/assets/kareem-95b7e0a1de92e2614f6a9e1b3f79c4ab31d0e8ef0914149fe35d60c8cceb1d0a.png">
       <link rel="apple-touch-icon" href="/assets/kareem-95b7e0a1de92e2614f6a9e1b3f79c4ab31d0e8ef0914149fe35d60c8cceb1d0a.png">
-      <link rel="stylesheet" type="text/css" href="/assets/dark-8d4a09767bb33edc5dd1af039d9e0cdf70d8d1ba56345e768944027bb31df15e.css">
+      <link rel="stylesheet" type="text/css" href="/assets/dark-184d8d73471417d11a28210fa9372e6bc5179405b2907557ed642901aba59391.css">
     
 
   
@@ -167,7 +167,7 @@
 <p><br />
 In Linux you can just pull yara from the repository, for example in Debian distros you can just do  <code class="highlighter-rouge">apt install yara</code>.
 For Windows, you’ll need to download the binaries.
-You can get full Installation instructions from <a href="https://yara.readthedocs.io/en/stable/gettingstarted.html">here</a></p>
+You can get full Installation instructions from <a href="https://yara.readthedocs.io/en/stable/gettingstarted.html">here</a>.</p>
 
 <p>The rule starts with a name, and then has three sections:</p>
 
@@ -236,7 +236,7 @@ You can get full Installation instructions from <a href="https://yara.readthedoc
 <ul>
   <li>As we can see the <code class="highlighter-rouge">string</code> section has all the possible strings we need to search for.</li>
   <li>In condition section, <code class="highlighter-rouge">any of ($cmd*) and (any of ($string*))</code> states that:
-match the occurrence of any of <code class="highlighter-rouge">$cmd</code> which can be <code class="highlighter-rouge">system</code>, <code class="highlighter-rouge">exec</code>, <code class="highlighter-rouge">shell_exec</code> or <code class="highlighter-rouge">passthru</code> combine with occurrence of any of <code class="highlighter-rouge">$string</code> which can be <code class="highlighter-rouge">/bin/bash</code>, <code class="highlighter-rouge">/bin/sh</code>, <code class="highlighter-rouge">/dev/tcp</code> or <code class="highlighter-rouge">cmd.exe</code></li>
+match the occurrence of any of <code class="highlighter-rouge">$cmd</code> which can be <code class="highlighter-rouge">system</code>, <code class="highlighter-rouge">exec</code>, <code class="highlighter-rouge">shell_exec</code> or <code class="highlighter-rouge">passthru</code> combine with occurrence of any of <code class="highlighter-rouge">$string</code> which can be <code class="highlighter-rouge">/bin/bash</code>, <code class="highlighter-rouge">/bin/sh</code>, <code class="highlighter-rouge">/dev/tcp</code> or <code class="highlighter-rouge">cmd.exe</code>.</li>
 </ul>
 
 <p><br /></p>
@@ -336,8 +336,6 @@ We can now run this against C: in Windows. We’ll use -r to search into subdire
   <img src="/assets/screenshots/yara/6-c54c6aa9c68decae7fa6aa6f4b0ea098a501dd4ae441866adc5b2c5682f6cadf.png" alt="Sample image" class="zooming" data-rjs="/assets/screenshots/yara/6-c54c6aa9c68decae7fa6aa6f4b0ea098a501dd4ae441866adc5b2c5682f6cadf.png" data-zooming-width="754" data-zooming-height="137" />
 </a></p>
 
-<p>That’s it. I hope you’ve enjoyed this post</p>
-
 <p><br /></p>
 <hr />
 
@@ -345,7 +343,7 @@ We can now run this against C: in Windows. We’ll use -r to search into subdire
 
 <h5 id="conclusion">Conclusion:</h5>
 
-<p>Now that you have the knowledge you can start building your own Yara rules to start hunting malwares.</p>
+<p>Now that you have the knowledge you can start building your own Yara rules to start hunting malwares. I hope you’ve enjoyed this post.</p>
 
 <p><br /></p>
 <hr />

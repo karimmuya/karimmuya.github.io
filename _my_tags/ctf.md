@@ -1,4 +1,0 @@
----
-slug: ctf
-name: ctf
----

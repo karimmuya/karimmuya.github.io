@@ -43,7 +43,7 @@ The rule starts with a name, and then has three sections:
 <hr>
 <br>
 
-### Writing your wwn Yara Rules.
+### Writing your own Yara Rules.
 
 <br>
 
